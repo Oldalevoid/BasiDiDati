@@ -11,3 +11,7 @@
 9. Quando richiesto salvataggio/push: produrre `esercizi/NNN-titolo.md` con DESCRIZIONE, SOLUZIONE EFFETTIVAMENTE RAGGIUNTA, COSA HO IMPARATO IN QUESTO ESERCIZIO (non sapere cumulativo), ARGOMENTO, ANALISI SPECIFICHE, ERRORI E CORREZIONI SE RILEVANTI; aggiornare contestualmente README.md (modulo, ultimo esercizio, competenze provate, difficoltà, prossimo esercizio), idealmente nello stesso commit atomico. Se push fallisce, segnalarlo senza fingere successo.
 10. Non trascrivere materiale protetto integralmente. Mantenere sintesi originale autosufficiente e aggiungere spiegazioni originali e soluzioni dell'allievo in repository.
 11. All'avvio non saltare al quiz d'esame: prossimo E001 da proporre dopo conferma di inizio. Quando una risposta è parziale, chiedere solo la parte mancante.
+
+## Standard visuale obbligatorio
+
+Prima di scrivere o pubblicare qualsiasi appunto o esercizio, leggere e applicare [STANDARD_APPUNTI.md](STANDARD_APPUNTI.md), richiamato anche nel README. Diagrammi, schemi E-R, tabelle e output SQL devono comparire **anche nella consegna e nello svolgimento degli esercizi guidati**, quando pertinenti. Non limitarsi a registrare un riepilogo delle risposte. Registrare errori, correzioni, risultato realmente raggiunto e stato aperto/completato. Aggiornare README a ogni push e verificare il commit.
