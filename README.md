@@ -15,3 +15,11 @@ Leggi PROGRAMMA_CORSO.md, GUIDA_AI.md e questo README prima di riprendere. Ogni 
 
 ## Fonti e limiti
 Sintesi autonoma delle dispense didattiche Pegaso fornite dall'utente, non riproduzione del testo protetto. Numeri delle lezioni mancanti: 09, 14, 31, 34. Non dedurne gli argomenti. Informazioni su formato e frequenza dell'esame non documentate dalle dispense.
+
+## Standard obbligatorio dei materiali didattici
+
+**Ogni nuovo push deve rispettare [STANDARD_APPUNTI.md](STANDARD_APPUNTI.md).** Lo standard vale per teoria **ed esercizi guidati**: diagrammi E-R Mermaid o figure equivalenti quando pertinenti, schemi relazionali, tabelle dei dati, query SQL separate e commentate, consegne complete, risposte effettive, correzioni e conclusioni. Non sono sufficienti appunti soltanto testuali se il concetto richiede una figura.
+
+Ogni lezione conclusa e ogni esercizio completato richiedono anche la sincronizzazione di questo README. Diagrammi, dati di esempio e SQL devono essere coerenti tra loro. **Nessun esercizio svolto è ancora presente**: la prima attività rimane E001, una domanda alla volta.
+
+Esempio di riferimento del formato illustrato: [schema E-R e query dimostrative](STANDARD_APPUNTI.md#4-standard-visuale-di-riferimento). Gli esempi di formato non rappresentano risposte già fornite dallo studente.
