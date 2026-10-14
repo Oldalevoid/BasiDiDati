@@ -6,8 +6,8 @@
 - Modulo corrente: 1 — Sistemi informativi e basi di dati.
 - Ultimo esercizio completato: [E003 — Il ruolo del DBMS](esercizi/003-ruolo-dbms.md) (14 ottobre 2026); precedenti: [E002](esercizi/002-sistema-informativo-informatico.md), [E001](esercizi/001-dato-informazione.md).
 - Concetti verificati: dato e informazione (E001, dopo errore iniziale); sistema informativo e informatico (E002, prima risposta corretta); database vs DBMS (E003, prima risposta corretta). Nessuna competenza SQL operativa ancora verificata in questo percorso.
-- Concetti da consolidare: dato e informazione in contesti ulteriori (errore iniziale di inversione).
-- Prossimo esercizio: E004 — schema e istanza (una domanda alla volta).
+- Concetti da consolidare: dato e informazione in ulteriori contesti; schema e istanza (E004: prima risposta D errata, correzione B spiegata, verifica di consolidamento in attesa).
+- Prossimo esercizio: [E004 — Schema e istanza](esercizi/004-schema-istanza.md), consolidamento (APERTO); non iniziare E005 prima della verifica.
 - Caso ricorrente: azienda fittizia produttrice e manutentrice di dispositivi elettromedicali (supporto didattico aggiunto, non elemento delle dispense).
 
 ## Uso
@@ -20,6 +20,6 @@ Sintesi autonoma delle dispense didattiche Pegaso fornite dall'utente, non ripro
 
 **Ogni nuovo push deve rispettare [STANDARD_APPUNTI.md](STANDARD_APPUNTI.md).** Lo standard vale per teoria **ed esercizi guidati**: diagrammi E-R Mermaid o figure equivalenti quando pertinenti, schemi relazionali, tabelle dei dati, query SQL separate e commentate, consegne complete, risposte effettive, correzioni e conclusioni. Non sono sufficienti appunti soltanto testuali se il concetto richiede una figura.
 
-Ogni lezione conclusa e ogni esercizio completato richiedono anche la sincronizzazione di questo README. Diagrammi, dati di esempio e SQL devono essere coerenti tra loro. **E001, E002 ed E003 completati e documentati**: prossimo E004, una domanda alla volta.
+Ogni lezione conclusa e ogni esercizio completato richiedono anche la sincronizzazione di questo README. Diagrammi, dati di esempio e SQL devono essere coerenti tra loro. **E001, E002 ed E003 completati; E004 aperto e documentato**: una domanda di consolidamento alla volta.
 
 Esempio di riferimento del formato illustrato: [schema E-R e query dimostrative](STANDARD_APPUNTI.md#4-standard-visuale-di-riferimento). Gli esempi di formato non rappresentano risposte già fornite dallo studente.
