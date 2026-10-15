@@ -1,7 +1,7 @@
 # E006 — Riconoscere il livello interno
 
 **Modulo:** M1 — Sistemi informativi e basi di dati  
-**Stato:** APERTO (15 ottobre 2026), risposta non ancora ricevuta  
+**Stato:** APERTO (15 ottobre 2026), primo tentativo errato; consolidamento in attesa  
 **Argomento d'esame:** livelli esterno, logico e interno.
 
 ## Descrizione e schema
@@ -30,7 +30,7 @@ Il DBMS cambia il modo in cui memorizza la tabella DISPOSITIVI, creando un nuovo
 - **D.** Tutti e tre necessariamente.
 
 ## Risposta effettiva dello studente
-**In attesa.** Non anticipare soluzione o risultato.
+**Primo tentativo: B — errato (15 ottobre 2026).** Risposta corretta: C. Errore concettuale: confusione fra definizione logica di tabelle/attributi e organizzazione fisica attraverso indici. Non sono state aggiunte colonne.
 
 ## Analisi e prossimi passi
 Esercizio di riconoscimento del livello di rappresentazione. La verifica autonoma non è ancora svolta. Correggere solo dopo la risposta e aggiornare il README, una domanda alla volta.
