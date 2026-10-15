@@ -1,7 +1,7 @@
 # E004 — Schema e istanza
 
 **Modulo:** M1 — Sistemi informativi e basi di dati  
-**Stato:** APERTO (15 ottobre 2026) — secondo consolidamento richiesto  
+**Stato:** COMPLETATO (15 ottobre 2026) — risposta corretta al secondo consolidamento  
 **Argomento:** schema e istanza di database
 
 ## Consegna iniziale
@@ -69,10 +69,25 @@ flowchart LR
 
 **Correzione spiegata:** schema = struttura; istanza = valori presenti. Aggiungere una colonna è un'operazione sullo schema, mentre aggiungere o modificare righe senza cambiare colonne opera sui dati dell'istanza.
 
+## Secondo consolidamento — 15 ottobre 2026
+
+**Consegna:** il tecnico modifica soltanto il valore Stato dell'Ecografo B da «In manutenzione» a «Operativo», senza cambiare colonne né numero di righe.
+
+**Opzioni:** A. Soltanto schema; B. Soltanto istanza; C. Schema e istanza; D. Nessuno dei due.
+
+**Risposta effettiva dello studente: B — CORRETTA.**
+
+| ID | Modello | Stato prima | Stato dopo |
+|---|---|---|---|
+| 1 | Defibrillatore A | Operativo | Operativo |
+| 2 | Ecografo B | In manutenzione | **Operativo** |
+
+La struttura (ID, Modello, Stato) resta invariata; cambia un dato memorizzato: dunque cambia soltanto l'istanza.
+
 ## Soluzione effettivamente raggiunta e competenze
 
-Prima risposta D errata e primo consolidamento A errato; correzioni spiegate. **Non è ancora dimostrato** il superamento della distinzione schema/istanza. Non attribuire una risposta al prossimo consolidamento prima che sia ricevuta.
+Prima risposta D errata e primo consolidamento A errato, con spiegazioni. Il secondo consolidamento B è corretto. **Dimostrato:** riconoscere autonomamente una modifica dell'istanza su valori di una riga senza modifica dello schema. **Da rivedere:** riconoscimento autonomo delle modifiche allo schema, dopo l'errore nel primo consolidamento. E004 chiuso, con richiamo programmato in esercizi successivi.
 
 ## Prossimo passo
 
-Secondo consolidamento di **E004**: riconoscere una modifica dei valori in una riga esistente mantenendo inalterate le colonne. Non iniziare E005 finché la distinzione non è verificata. Schema E-R e SQL non sono necessari per questo esercizio introduttivo. Riferimento: [PROGRAMMA_CORSO.md](../PROGRAMMA_CORSO.md), M1.
+Avviare [E005 — Livelli di rappresentazione](005-livelli-rappresentazione.md); riprendere anche la distinzione schema/istanza in un caso successivo. Schema E-R e SQL non sono necessari per questo esercizio introduttivo. Riferimento: [PROGRAMMA_CORSO.md](../PROGRAMMA_CORSO.md), M1.
