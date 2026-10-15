@@ -1,13 +1,13 @@
 # Basi di Dati — percorso Pegaso
 
-## Stato corrente (14 ottobre 2026)
+## Stato corrente (15 ottobre 2026)
 - Materiale: 40 dispense distinte, numerate 01–44; assenti 09, 14, 31, 34.
 - Stato: programma ricostruito; esercitazioni avviate.
 - Modulo corrente: 1 — Sistemi informativi e basi di dati.
 - Ultimo esercizio completato: [E003 — Il ruolo del DBMS](esercizi/003-ruolo-dbms.md) (14 ottobre 2026); precedenti: [E002](esercizi/002-sistema-informativo-informatico.md), [E001](esercizi/001-dato-informazione.md).
 - Concetti verificati: dato e informazione (E001, dopo errore iniziale); sistema informativo e informatico (E002, prima risposta corretta); database vs DBMS (E003, prima risposta corretta). Nessuna competenza SQL operativa ancora verificata in questo percorso.
-- Concetti da consolidare: dato e informazione in ulteriori contesti; schema e istanza (E004: prima risposta D errata, correzione B spiegata, verifica di consolidamento in attesa).
-- Prossimo esercizio: [E004 — Schema e istanza](esercizi/004-schema-istanza.md), consolidamento (APERTO); non iniziare E005 prima della verifica.
+- Concetti da consolidare: dato e informazione in ulteriori contesti; schema e istanza (E004: risposta iniziale D errata; primo consolidamento A errato, correzione C spiegata; secondo consolidamento in attesa).
+- Prossimo esercizio: [E004 — Schema e istanza](esercizi/004-schema-istanza.md), secondo consolidamento (APERTO); non iniziare E005 prima della verifica.
 - Caso ricorrente: azienda fittizia produttrice e manutentrice di dispositivi elettromedicali (supporto didattico aggiunto, non elemento delle dispense).
 
 ## Uso
