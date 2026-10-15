@@ -1,7 +1,7 @@
 # E005 — Livelli di rappresentazione: vista esterna
 
 **Modulo:** M1 — Sistemi informativi e basi di dati  
-**Stato:** APERTO (15 ottobre 2026) — risposta in attesa  
+**Stato:** COMPLETATO (15 ottobre 2026) — prima risposta corretta  
 **Argomento d'esame:** livelli di rappresentazione di una base di dati; livello esterno, logico (concettuale nell'architettura ANSI/SPARC) e interno.
 
 ## Descrizione e teoria minima
@@ -35,9 +35,12 @@ Un tecnico può consultare soltanto matricola, modello e stato tramite la propri
 - **D.** Nessun livello: una schermata non può rappresentare dati di un database.
 
 ## Risposta effettiva dello studente
-**Non ancora ricevuta.** Non attribuire esiti o competenze.
+**B — Corretta al primo tentativo (15 ottobre 2026).** Il livello esterno descrive una vista specifica dei dati destinata a un utente o applicazione; non coincide necessariamente con l'intero schema logico o con l'organizzazione fisica.
+
+## Soluzione effettivamente raggiunta e cosa ho imparato
+Risposta B corretta senza ulteriori tentativi: riconoscimento del **livello esterno** in uno scenario reale. Non ancora provata la distinzione autonoma dei livelli logico e interno.
 
 ## Prossimo passo
-Attendere la risposta a E005; correggerla, documentare soltanto l'effettivo risultato, poi aggiornare README. Richiamare il riconoscimento delle modifiche di schema nelle prossime applicazioni.
+Passare all'[E006 — Livelli logico e interno](006-livelli-logico-interno.md). Richiamare il riconoscimento delle modifiche di schema nelle prossime applicazioni.
 
 Riferimento: [Programma M1](../PROGRAMMA_CORSO.md).
