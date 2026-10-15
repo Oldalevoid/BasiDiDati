@@ -6,8 +6,8 @@
 - Modulo corrente: 1 — Sistemi informativi e basi di dati.
 - Ultimo esercizio completato: [E005 — Livelli di rappresentazione](esercizi/005-livelli-rappresentazione.md) (15 ottobre 2026); precedenti: [E004](esercizi/004-schema-istanza.md), [E003](esercizi/003-ruolo-dbms.md), [E002](esercizi/002-sistema-informativo-informatico.md), [E001](esercizi/001-dato-informazione.md).
 - Concetti verificati: dato e informazione (E001, dopo errore iniziale); sistema informativo e informatico (E002, prima risposta corretta); database vs DBMS (E003, prima risposta corretta); livello esterno (E005, prima risposta corretta). Nessuna competenza SQL operativa ancora verificata in questo percorso.
-- Concetti da consolidare: dato e informazione in ulteriori contesti; schema e istanza (E004: seconda verifica B corretta sulle modifiche dell'istanza; ancora da rivedere il riconoscimento autonomo delle modifiche dello schema dopo due risposte iniziali errate).
-- Prossimo esercizio: [E006 — Livelli logico e interno](esercizi/006-livelli-logico-interno.md), APERTO, risposta in attesa.
+- Concetti da consolidare: livello interno vs logico (E006: primo tentativo B errato, C spiegata; consolidamento in attesa); dato e informazione in ulteriori contesti; schema e istanza (E004: seconda verifica B corretta sulle modifiche dell'istanza; ancora da rivedere il riconoscimento autonomo delle modifiche dello schema dopo due risposte iniziali errate).
+- Prossimo esercizio: [E006 — Livelli logico e interno](esercizi/006-livelli-logico-interno.md), APERTO, primo tentativo B errato; consolidamento in attesa.
 - Caso ricorrente: azienda fittizia produttrice e manutentrice di dispositivi elettromedicali (supporto didattico aggiunto, non elemento delle dispense).
 
 ## Uso
