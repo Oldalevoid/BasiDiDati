@@ -1,7 +1,7 @@
 # E006 — Riconoscere il livello interno
 
 **Modulo:** M1 — Sistemi informativi e basi di dati  
-**Stato:** APERTO (15 ottobre 2026), primo tentativo errato; consolidamento in attesa  
+**Stato:** COMPLETATO (15 ottobre 2026), consolidamento corretto  
 **Argomento d'esame:** livelli esterno, logico e interno.
 
 ## Descrizione e schema
@@ -32,7 +32,27 @@ Il DBMS cambia il modo in cui memorizza la tabella DISPOSITIVI, creando un nuovo
 ## Risposta effettiva dello studente
 **Primo tentativo: B — errato (15 ottobre 2026).** Risposta corretta: C. Errore concettuale: confusione fra definizione logica di tabelle/attributi e organizzazione fisica attraverso indici. Non sono state aggiunte colonne.
 
-## Analisi e prossimi passi
-Esercizio di riconoscimento del livello di rappresentazione. La verifica autonoma non è ancora svolta. Correggere solo dopo la risposta e aggiornare il README, una domanda alla volta.
+## Consolidamento — 15 ottobre 2026
+**Consegna:** il DBMS riorganizza le pagine dei dati su disco per migliorarne l'efficienza senza cambiare tabelle, colonne, righe o schermate.
+
+**Opzioni:** A. Esterno; B. Logico; C. Interno; D. Tutti e tre.
+
+**Risposta effettiva:** **C — corretta.**
+
+### Correzione e analisi
+La riorganizzazione delle pagine riguarda la rappresentazione fisica, quindi il livello interno. La struttura logica e le viste esterne rimangono inalterate.
+
+```mermaid
+flowchart LR
+    A["Schema logico invariato"] --> B["Pagine su disco prima"]
+    A --> C["Pagine su disco dopo"]
+    B -->|"Riorganizzazione fisica"| C
+```
+
+### Soluzione effettivamente raggiunta — cosa ho imparato
+Dopo un primo errore (B), lo studente ha identificato correttamente il livello interno in un caso di riorganizzazione fisica. **Competenze provate:** riconoscimento di un'operazione al livello interno dopo correzione. **Ancora da verificare:** riconoscimento di una modifica allo schema logico in un caso differente e distinzione autonoma completa dei tre livelli.
+
+## Prossimo passo
+[E007 — Modifica dello schema logico](007-modifica-schema-logico.md), risposta in attesa. Riferimento: [M1 nel programma](../PROGRAMMA_CORSO.md).
 
 Riferimento: [M1 nel programma](../PROGRAMMA_CORSO.md).
