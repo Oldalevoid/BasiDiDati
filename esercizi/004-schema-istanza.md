@@ -1,7 +1,7 @@
 # E004 — Schema e istanza
 
 **Modulo:** M1 — Sistemi informativi e basi di dati  
-**Stato:** APERTO (14 ottobre 2026) — consolidamento richiesto  
+**Stato:** APERTO (15 ottobre 2026) — secondo consolidamento richiesto  
 **Argomento:** schema e istanza di database
 
 ## Consegna iniziale
@@ -45,10 +45,34 @@ flowchart TD
   B -->|"Inserimento nuova riga"| C
 ```
 
+## Primo consolidamento — 15 ottobre 2026
+
+**Consegna:** alla tabella DISPOSITIVI, composta dalle colonne ID, Modello e Stato e dalle due righe iniziali, viene aggiunta la colonna Data_Acquisto, senza inserire o eliminare righe.
+
+**Opzioni presentate:**
+- A. Cambia soltanto l'istanza.
+- B. Non cambia né lo schema né l'istanza.
+- C. Cambia lo schema della tabella.
+- D. Viene necessariamente creato un nuovo database.
+
+**Risposta effettiva dello studente:** A. **Errata (errore concettuale)**. Risposta attesa **C**: l'aggiunta di una colonna modifica la struttura, ossia lo schema. In senso rigoroso, la rappresentazione delle tuple dell'istanza cambia anch'essa per comprendere il nuovo attributo (ad esempio inizialmente NULL); il quesito distingue il tipo principale di operazione, non pretende che l'istanza sia letteralmente identica.
+
+| ID | Modello | Stato | Data_Acquisto |
+|---|---|---|---|
+| 1 | Defibrillatore A | Operativo | NULL |
+| 2 | Ecografo B | In manutenzione | NULL |
+
+```mermaid
+flowchart LR
+  A["Schema prima: ID, Modello, Stato"] -->|"Aggiunta colonna"| B["Schema dopo: ID, Modello, Stato, Data_Acquisto"]
+```
+
+**Correzione spiegata:** schema = struttura; istanza = valori presenti. Aggiungere una colonna è un'operazione sullo schema, mentre aggiungere o modificare righe senza cambiare colonne opera sui dati dell'istanza.
+
 ## Soluzione effettivamente raggiunta e competenze
 
-Prima risposta errata, correzione spiegata. **Non è ancora dimostrato** il superamento della distinzione schema/istanza: attendere il risultato del consolidamento. Non attribuire una risposta al consolidamento prima che sia ricevuta.
+Prima risposta D errata e primo consolidamento A errato; correzioni spiegate. **Non è ancora dimostrato** il superamento della distinzione schema/istanza. Non attribuire una risposta al prossimo consolidamento prima che sia ricevuta.
 
 ## Prossimo passo
 
-Consolidamento di **E004**: valutare una modifica delle colonne invece delle righe. Non iniziare E005 finché la distinzione non è verificata. Schema E-R e SQL non sono necessari per questo esercizio introduttivo. Riferimento: [PROGRAMMA_CORSO.md](../PROGRAMMA_CORSO.md), M1.
+Secondo consolidamento di **E004**: riconoscere una modifica dei valori in una riga esistente mantenendo inalterate le colonne. Non iniziare E005 finché la distinzione non è verificata. Schema E-R e SQL non sono necessari per questo esercizio introduttivo. Riferimento: [PROGRAMMA_CORSO.md](../PROGRAMMA_CORSO.md), M1.
